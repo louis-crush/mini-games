@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <title>贪吃蛇小游戏 - 欢迎</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>贪吃蛇游戏</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      text-align: center;
+      padding: 20px;
+    }
+    .qr {
+      margin: 20px auto;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #33ff66;
+      color: #111;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
 </head>
-<body class="intro">
-  <div class="container">
-    <h1>🐍 贪吃蛇小游戏</h1>
-    <p>欢迎来到经典的贪吃蛇游戏！</p>
-    <ul>
-      <li>使用键盘 ↑ ↓ ← → 控制方向</li>
-      <li>每吃到一个苹果得 1 分</li>
-      <li>撞墙或撞到自己游戏结束</li>
-    </ul>
-    <p>快来挑战你的极限得分吧！</p>
-    <a href="game.html" class="btn">开始游戏</a>
-
-    <div class="qr-section">
-      <p>扫码进入本页面：</p>
-      <img src="qrcode.png" alt="二维码" width="160">
-    </div>
-  </div>
+<body>
+  <h1>🎮 贪吃蛇小游戏</h1>
+  <p>通过虚拟按键控制蛇的方向，吃到红点得分，碰到墙壁或自己即失败。</p>
+  <p>支持手机与电脑访问，推荐横屏体验。</p>
+  <img src="qrcode.png" alt="扫码进入游戏" class="qr" width="200">
+  <br>
+  <a href="game.html">点击进入游戏</a>
 </body>
 </html>
